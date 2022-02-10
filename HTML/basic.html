@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic html</title><!--title of html page-->
+   <style>
+       /*This is using ID selector*/
+    #h2title{
+        font-size: 30px;
+    }
+</style>
+<link rel="stylesheet" href="forms.css">
 </head>
 <body> <!--Everything in a web page comes under body tag-->
 Hello world from Html 
 <!-- for comment your code type ctrl+k+c    -->
 <!--  for remove comment your code type ctrl+k+c    -->
 <!-- heading tags -->
+<div class="header">
+<h1>This s a header</h1>
+</div>
 <div>
-<h1>this is h1 tag largest</h1>
-<h2>this is h2</h2>
-<h3>this is h3</h3>
-<h4>this is h4</h4>
-<h5>this is h5</h5>
+    <h1 class="title">this is h1 tag largest</h1>
+</div>
+<div class="container">
+
+<h2 id="h2title" style="color:rgb(32, 180, 106);"> this is h2</h2>
+<h3 class="mandatory_field">this is h3</h3>
+<h4 class="mandatory_field">this is h4</h4>
+<h5 class="mandatory_field">this is h5</h5>
 <h6>this is h6</h6>
 <!-- paragraph tags -->
 <p>The &lt;p&gt; HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,<br>
