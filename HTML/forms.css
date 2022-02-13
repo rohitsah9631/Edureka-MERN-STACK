@@ -34,4 +34,6 @@
     margin: 30px 20px;
     /* topBottem  leftRight*/
 }
-
+#displaycss{
+    display: block;
+}
