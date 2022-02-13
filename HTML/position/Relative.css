@@ -1,0 +1,38 @@
+
+.parent{
+    padding: 3%;
+    background-color: coral;
+    border: 1px solid green;
+    /*create a flexible container which makes all item flexible*/
+    display: flex;
+    height: 500px;
+    /*Aligns flexible item horizontally*/
+    justify-content: center;
+    /*Aligns flexible items vertically*/
+    align-items: start;
+    flex-direction: column;
+
+}
+.child{
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 2%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+   /* display: none;*//*remove the content from page */
+    visibility: hidden; /*just hide the content from page*/
+}
+.position{
+    /*Relative position is relative to element itself*/
+     /*Element remember its original position even after being pulled out
+     of default flow of DOM*/
+    position: relative;
+     /*left, top from origional position of element*/
+    left: 100px;
+    top: 40px;
+}

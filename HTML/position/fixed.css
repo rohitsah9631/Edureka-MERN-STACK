@@ -1,0 +1,31 @@
+.parent{
+    padding: 0%;
+    background-color: coral;
+    border: 1px solid green;
+    /*create a flexible container which makes all item flexible*/
+    display: flex;
+    height: 5000px;
+    /*Aligns flexible item horizontally*/
+    justify-content: center;
+    /*Aligns flexible items vertically*/
+    align-items: start;
+   /* flex-direction: column;*/
+
+}
+.child{
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    /*margin: 2%;*/
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+  
+    position: fixed;
+     
+    left: 0px;
+    top: 0px;
+}
