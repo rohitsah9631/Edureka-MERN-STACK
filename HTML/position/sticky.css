@@ -1,31 +1,45 @@
-.parent{
-    padding: 0%;
-    background-color: coral;
-    border: 1px solid green;
-    /*create a flexible container which makes all item flexible*/
-    display: flex;
-    height: 5000px;
-    /*Aligns flexible item horizontally*/
-    justify-content: start;
-    /*Aligns flexible items vertically*/
-    align-items: start;
-   /* flex-direction: column;*/
-
+body{
+    margin: 25px !important;
 }
+
+.parent{
+    /* padding: 4%; */
+    border: 1px solid green;
+    /* Create a flexible container which makes all items flexible */
+    display: flex;
+    background-color: coral;
+    height: 600px;
+    /* Aligns flexibile items horizontally */
+    justify-content: start;
+
+    /* Aligns flexibile items vertically */
+    align-items: start;
+    height: 3000px;
+}
+
 .child{
     display: flex;
     background-color: yellow;
     border: 1px solid black;
-    /*margin: 2%;*/
-    height: 70px;
-    width: 70px;
+    /* margin: 2%; */
+    height: 150px;
+    font-weight: bold;
+    font-style: italic;
+    width: 150px;
     justify-content: center;
     align-items: center;
 }
+
+.hide{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
 .position{
-  
+    
     position: sticky;
-     
+    
+    /* left, top from original position of element */
     left: 10px;
     top: 10px;
 }

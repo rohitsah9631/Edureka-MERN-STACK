@@ -1,39 +1,45 @@
+body{
+    margin: 25px !important;
+}
+
 .parent{
     position: relative;
-    padding: 3%;
-    background-color: coral;
+    padding: 4%;
     border: 1px solid green;
-    /*create a flexible container which makes all item flexible*/
+    /* Create a flexible container which makes all items flexible */
     display: flex;
-    height: 500px;
-    /*Aligns flexible item horizontally*/
+    background-color: coral;
+    height: 600px;
+    /* Aligns flexibile items horizontally */
     justify-content: center;
-    /*Aligns flexible items vertically*/
-    align-items: start;
-    flex-direction: column;
 
+    /* Aligns flexibile items vertically */
+    align-items: center;
 }
-.child{
 
+.child{
     display: flex;
     background-color: yellow;
     border: 1px solid black;
-    margin: 2%;
-    height: 100px;
-    width: 100px;
+    /* margin: 2%; */
+    height: 150px;
+    font-weight: bold;
+    font-style: italic;
+    width: 150px;
     justify-content: center;
     align-items: center;
 }
+
 .hide{
-   /* display: none;*//*remove the content from page */
-   /* visibility: hidden;*/ /*just hide the content from page*/
+    /* display: none;*//*remove the content from page */
+    /* visibility: hidden; *//*just hide the content from page*//
 }
+
 .position{
-    /*Relative position is relative to element itself*/
-     /*Element remember its original position even after being pulled out
-     of default flow of DOM*/
+   
     position: absolute;
-     /*left, top from origional position of element*/
-    left: 10px;
-    top: 10px;
+    
+    /* left, top from original position of element */
+    left: 0px;
+    top: 0px;
 }
