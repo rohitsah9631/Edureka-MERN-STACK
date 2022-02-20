@@ -10,6 +10,7 @@
 
     /* Aligns flexibile items vertically */
     align-items: center;
+    flex-direction: column;
 }
 
 .child{
@@ -20,7 +21,7 @@
     height: 150px;
     font-weight: bold;
     font-style: italic;
-    width: 150px;
+    width: 100px;
     justify-content: center;
     align-items: center;
 }
