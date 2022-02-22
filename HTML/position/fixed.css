@@ -44,6 +44,6 @@ body{
     position: fixed;
     
     /* left, top from original position of element */
-    left: 0px;
+    left: 80px;
     top: 0px;
 }
