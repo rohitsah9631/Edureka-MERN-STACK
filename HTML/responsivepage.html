@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsivepage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>This is a header</h1>
+        </div>
+    <h2 CLASS="title">signup form</h2>
+<div class="container">
+<form><!--form is a controller for input tag-->
+    
+    <div id="displaycss">
+    <label name="lblEmail" for="inputEmail">Email Address</label>
+    <input type="email" name="inputEmail"><!--input is a self closing tag-->
+</div>
+<div>
+    <label name="lblname" for="inputname">Name</label>
+    <input type="text" name="inputname">
+</div>
+<div>
+    <label name="lblusername" for="inputusername">Username</label>
+    <input type="text" name="inputname">
+</div>
+<div>
+    <label name="lblpassword" for="inputpassword">password</label>
+    <input type="password" name="inputpassword">
+</div>
+<div>
+    <label name="lblDOB" for="inputDOB">Date Of Birth</label>
+    <input type="date" name="inputDOB">
+</div>
+<div>
+    <label name="lblphone" for="inputphone">Phone</label>
+    <input inputmode="number" maxlength="10"name="inputphone">
+</div> <div>
+    <label name="Address" for="inputaddress">Address</label>
+    <textarea name="txtarea" id="txtarea" cols="30" rows="4"></textarea>
+</div>
+<div>
+    <label name="input gender" for="input gender">Gender</label>
+    <input type="radio" name="gender"><label for="for male">Male</label>
+    <input type="radio" name="gender"><label for="for female">Female</label>
+</div>
+<div>
+    <label for="Pincode" name="inputpincode">Pincode</label>
+    <input  name="pincode" inputmode="number" maxlength="6">
+</div>
+<div>
+    <label  for="inputFile">Upload Resume</label>
+    <input type="file" name="inputname">
+</div>
+
+<div>
+   <select name="country" id="country">
+      <option value="0">select</option> 
+      <option value="1">india</option>
+      <option value="3">Dubai</option>
+      <option value="2">London</option>
+</select>
+<DIV>
+    <input type="checkbox" name="inputterms"><label for="inputterms">Term</label>
+</DIV>
+
+</div>
+<input type="submit">
+</form>
+</div>    
+</body>
+</html>
