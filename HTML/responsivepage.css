@@ -1,0 +1,80 @@
+/* univarsal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* using class selector*/
+.mandatory_field{
+    font-weight: bold;
+
+}
+#h2title{
+    color: antiquewhite;
+}
+.header{
+   
+    height: 150px;
+    background-image: url(https://media.istockphoto.com/photos/minimal-work-space-creative-flat-lay-photo-of-workspace-desk-top-view-picture-id1220573371?b=1&k=20&m=1220573371&s=170667a&w=0&h=dyT6F0wNP1NdDdvvTd95RVrR8qHwbEU8bqLxpDpSejw=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    
+}
+.container{
+    font-size: 40px;
+    background-color: aquamarine;
+}
+.title{
+    font-size: 80px;
+    background-color: rgb(243, 122, 140);
+    border: 2px solid red;
+    padding: 50px;
+    padding-left: 0;
+    margin: 0%;
+    margin-left: 0%;
+   /* padding: 10px 20px 25px 30px;*/
+             /*top right bottom left*/
+    margin: 10px 10px;
+    /* topBottom  leftRight*/
+    border-radius: 10px;
+    border-bottom: 5px dotted grey;
+}
+
+#displaycss{
+    display: block;
+} 
+/* Apply this query where size is b/w 600 to 1000*/
+/* tablet devices */
+@media screen and (min-width:600px) and (max-width:1000px){
+    .title{
+        background-color: rgb(87, 86, 99);
+        font-size: 60px;
+    }
+    
+    .container{
+        background-color: rgb(114, 146, 77);
+        font-size: 50px;
+    }
+    .header{
+        background-image: url(https://img.freepik.com/free-vector/yellow-background-with-halftone-lines-design_1017-30148.jpg?size=626&ext=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* Apply this query as lng as (max-width is 600) */
+/* MOBILE */
+@media screen and (max-width:600px){
+    .title{
+        background-color: aquamarine;
+        font-size: 40px;
+    }
+    
+    .container{
+        background-color: rgb(243, 122, 140);
+        font-size: 25px;
+    }
+    .header{
+        background-image: url(https://media.istockphoto.com/photos/light-green-defocused-blurred-motion-abstract-background-picture-id1138288758?k=20&m=1138288758&s=612x612&w=0&h=LMtberFagKLWqz4BdhZt4Ukh28m3TYJNZ-i5NegN1ro=);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
