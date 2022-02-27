@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Signup form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="row container">
+            <div class="col-12 col-md-6">
+
+         
+        <h2>signup form</h2><i class="fa fa-user-plus" aria-hidden="true"></i>
+        <div class="container">
+    <form><!--form is a controller for input tag-->
+        <div class="mb-3">
+        <label class="form-label" name="lblEmail" for="inputEmail">Email Address</label>
+        <input class="form-control" type="email" name="inputEmail"><!--input is a self closing tag-->
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="lblname" for="inputname">Name</label>
+        <input class="form-control" type="text" name="inputname">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="lblusername" for="inputusername">Username</label>
+        <input class="form-control" type="text" name="inputname">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="lblpassword" for="inputpassword">password</label>
+        <input class="form-control" type="password" name="inputpassword">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="lblDOB" for="inputDOB">Date Of Birth</label>
+        <input class="form-control" type="date" name="inputDOB">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="lblphone" for="inputphone">Phone</label>
+        <input class="form-control" inputmode="number" maxlength="10"name="inputphone">
+    </div>
+     <div class="mb-3">
+        <label class="form-label" name="Address" for="inputaddress">Address</label>
+        <textarea class="form-control" name="txtarea" id="txtarea" cols="30" rows="4"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" name="input gender" for="input gender">Gender</label>
+       <div class="form-check"> 
+           <input class="form-check-input " type="radio" name="gender">
+           <label class="form-check-label" for="for male">Male</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input"  type="radio" name="gender">
+            <label class="form-check-label" for="for female">Female</label>
+        </div> 
+        <div class="form-check">
+            <input class="form-check-input"  type="radio" name="gender">
+            <label class="form-check-label" for="for female">other</label>
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="Pincode" name="inputpincode">Pincode</label>
+        <input class="form-control" name="pincode" inputmode="number" maxlength="6">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="inputFile">Upload Resume</label>
+        <input class="form-control" type="file" name="inputname">
+    </div>
+    
+    <div class="mb-3">
+       <select class="form-select" name="country" id="country">
+          <option value="0">select</option> 
+          <option value="1">india</option>
+          <option value="3">Dubai</option>
+          <option value="2">London</option>
+    </select>
+    <DIV class="mb-3">
+        <input type="checkbox" name="inputterms">
+        <label for="inputterms">Term</label>
+    </DIV>
+    
+    </div>
+    <div>
+      <input class="btn btn-success" type="submit">
+    </div>
+    </form>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12">
+    <div class="card" style="width: 18rem; margin: 1%;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91ceCcI4d+L.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eloquent javascript</h5>
+          <p class="card-text">price: 2000</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+       </div>
+    </div>
+</div>
+    </body>
+</html>
