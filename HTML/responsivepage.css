@@ -44,7 +44,7 @@
 } 
 /* Apply this query where size is b/w 600 to 1000*/
 /* tablet devices */
-@media screen and (min-width:600px) and (max-width:1000px){
+/@media screen and (min-width:600px) and (max-width:1000px){
     .title{
         background-color: rgb(87, 86, 99);
         font-size: 60px;
