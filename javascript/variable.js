@@ -1,24 +1,19 @@
 //How to declear a variable in js?
 //var means variable.
-var num = 10;
-
-//How to declear a constant in js?
-num=20;
-console.log(num);
-
-
-const marks=100;//const, you cannot reassign a value. 
-console.log(marks);
-
-
+let num = 10;
+num = 20;// let you can reassign a value
+var num2 = 20;
+//num2 =30; var you can assign a value.
 let myname="my name"
 console.log(myname);
+console.log(num);
+console.log(num2);
 
-let x=10;
-console.log(x);
+//How to declear a constant in js?
+const marks=100;//const, you cannot reassign a value. 
+//marks=200;
+console.log(marks);
 
-const z=100;
-console.log(z);
 
 
 
