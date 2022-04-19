@@ -1,15 +1,16 @@
-// Data types.
+// Data types. types of data which is supportd by any programming language.
 //c - int,float, double, short, char
 // java - string. long, Date, decimal
 
-
-
+//int x=10;
+// var x =10;
+// x="name"
 
 
 
 
 // dta Types in JS
-//1. numbar
+//1. number
 //2. string
 //3. object
 //4. function
@@ -40,8 +41,9 @@ console.log(typeof x);
 // operator to find out instances of object.
 console.log(x instanceof Date);//True
 
-x=null; // define with no data.
+x=null; // defined with no data.
 console.log(typeof x); //object
+
 
 
 
