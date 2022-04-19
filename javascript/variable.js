@@ -3,7 +3,7 @@
 let num = 10;
 num = 20;// let you can reassign a value
 var num2 = 20;
-//num2 =30; var you can assign a value.
+//num2 =30; var you can reassign a value.
 let myname="my name"
 console.log(myname);
 console.log(num);
