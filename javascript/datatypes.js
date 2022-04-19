@@ -29,10 +29,11 @@ console.log(typeof x);// string
 x={id: 1, name: "rohit", dept:'finance'}
 console.log(typeof x);//object
 
-x=function print(){
+x = function print(){
     console.log("this is a function");
 }
 console.log(typeof x);
+x();
 
 x= new Date(); // creating instance of Date type
 console.log(x);
