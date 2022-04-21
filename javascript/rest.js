@@ -6,7 +6,7 @@
 //Using rest operator
 //Convert individual values into an array.
 
-function sum(...numbers){
+function sum(...numbers){//these three dot convert individual value into an array.
     let result=0;
     for(let i=0; i<numbers.length; i++){
         // result = 0+2 = 2; // 1st
@@ -25,3 +25,9 @@ sum(2, 3, 4); // 9
 sum(2, 3, 4, 5); // 14
 sum(2, 3, 4, 5, 6); // 20
 sum(2, 3, 4, 5, 6,8); // 28
+
+// function to add two numbers
+// function add(sum1, sum2){
+//     console.log(sum1+sum2);
+// }
+// add(5,5);
