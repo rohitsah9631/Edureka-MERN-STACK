@@ -18,11 +18,14 @@ console.log(password.includes("23"));
 console.log(password.indexOf("@"));
 
 //5. how do i checak if strings ends with some character.
-console.log(password.endsWith("33"));
+console.log(password.endsWith("33"));//true
 
 //6. how do i checak if strings ends with some character.
-console.log(password.endsWith("cq"));
+console.log(password.endsWith("cq"));//false
+
+//7. how do i checak if strings start with some character.
+console.log(password.startsWith("cq"));//true
 
 let empname="dadvdid";
-console.log(empname.indexOf("c", 2));
+console.log(empname.indexOf("d", 3));//4 
 console.log(empname.replace("dvd", "v"));//david
