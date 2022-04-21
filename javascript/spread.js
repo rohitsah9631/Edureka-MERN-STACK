@@ -11,5 +11,7 @@ console.log(indiancars);//array
 console.log(uscars);//array
 //const result = indiancars+uscars;
 //console.log(result);// it print individual value but i want this value into an array.
-const result = [indiancars+uscars];
-console.log(result);
+//const result = [indiancars+uscars];[ 'tata,mahindra,maruti ,Tesla,fararri,ford' ]
+const result = [...indiancars,...uscars];['tata',   'mahindra', 'maruti', ' ','Tesla',  'fararri','ford' ]
+const result2 =[...result,"KIA"];
+console.log(result2);
