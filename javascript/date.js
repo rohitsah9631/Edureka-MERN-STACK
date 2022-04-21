@@ -17,7 +17,7 @@ console.log(currentDate.getFullYear());//2022
 console.log(currentDate.getMonth());//2[0=jan,....,11=dec]
 
 //6. how to get day from date?
-console.log(currentDate.getDay());    
+console.log(currentDate.getDay());//[0=sun,.....,6=saturday]     
 
 //7. how to get hour from a date?
 console.log(currentDate.getHours());
