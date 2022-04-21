@@ -3,6 +3,7 @@
 //1. How to get current date and time?
 const currentDate = new Date();
 console.log(currentDate);//2022-03-18T10:31:53.910Z
+console.log(typeof currentDate);
 
 //2. Date formates in javascript.
 console.log(currentDate.toDateString());//Fri Mar 18 2022
